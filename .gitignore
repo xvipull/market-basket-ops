@@ -1,0 +1,14 @@
+# Source data and generated artifacts
+data/raw/*
+data/staging/*
+reports/*
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!reports/.gitkeep
+
+# Local / Python tooling
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
