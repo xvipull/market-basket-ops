@@ -1,0 +1,2 @@
+promotion_id,promotion_name,start_date,end_date,sku_id,store_id,discount_type
+P-SEP-01,Pantry Bundle,2026-09-14,2026-09-20,SKU-200,S001,AMOUNT_OFF

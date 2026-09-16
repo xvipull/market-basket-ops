@@ -1,0 +1,5 @@
+sku_id,product_name,category,unit_cost,active_flag
+sku-100,Whole Wheat Bread,Bakery,24.00,Y
+SKU-200,Peanut Butter,Pantry,85.50,Y
+SKU-300,Strawberry Jam,Pantry,72.00,Y
+SKU-400,Orange Juice,Beverages,48.00,Y

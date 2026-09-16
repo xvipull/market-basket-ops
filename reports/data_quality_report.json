@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-16T08:40:06+05:30",
+  "overall_status": "PASS",
+  "row_counts": {
+    "products": 4,
+    "stores": 2,
+    "transactions": 4,
+    "inventory": 4,
+    "promotions": 1
+  },
+  "checks": [
+    {
+      "check": "products.null_threshold",
+      "status": "PASS",
+      "detail": "nulls=0; threshold=0%"
+    },
+    {
+      "check": "stores.null_threshold",
+      "status": "PASS",
+      "detail": "nulls=0; threshold=0%"
+    },
+    {
+      "check": "transactions.null_threshold",
+      "status": "PASS",
+      "detail": "nulls=0; threshold=0%"
+    },
+    {
+      "check": "inventory.null_threshold",
+      "status": "PASS",
+      "detail": "nulls=0; threshold=0%"
+    },
+    {
+      "check": "promotions.null_threshold",
+      "status": "PASS",
+      "detail": "nulls=0; threshold=0%"
+    },
+    {
+      "check": "products.duplicates",
+      "status": "PASS",
+      "detail": "rows=4; distinct_keys=4"
+    },
+    {
+      "check": "stores.duplicates",
+      "status": "PASS",
+      "detail": "rows=2; distinct_keys=2"
+    },
+    {
+      "check": "transactions.duplicates",
+      "status": "PASS",
+      "detail": "rows=4; distinct_keys=4"
+    },
+    {
+      "check": "inventory.duplicates",
+      "status": "PASS",
+      "detail": "rows=4; distinct_keys=4"
+    },
+    {
+      "check": "promotions.duplicates",
+      "status": "PASS",
+      "detail": "rows=1; distinct_keys=1"
+    },
+    {
+      "check": "transactions.valid_ranges",
+      "status": "PASS",
+      "detail": "positive quantity; valid amounts; INR completed sales"
+    },
+    {
+      "check": "inventory.valid_ranges",
+      "status": "PASS",
+      "detail": "non-negative on-hand; valid stock flag"
+    },
+    {
+      "check": "transactions.referential_integrity",
+      "status": "PASS",
+      "detail": "all SKU and store keys resolve"
+    },
+    {
+      "check": "inventory.referential_integrity",
+      "status": "PASS",
+      "detail": "all SKU and store keys resolve"
+    },
+    {
+      "check": "promotions.referential_integrity",
+      "status": "PASS",
+      "detail": "all SKU and store keys resolve"
+    },
+    {
+      "check": "transactions.freshness",
+      "status": "PASS",
+      "detail": "latest_transaction_date=2026-09-15; maximum_age=30d"
+    },
+    {
+      "check": "transactions.value_reconciliation",
+      "status": "PASS",
+      "detail": "calculated_net_sales=445.00; control_total=445.00"
+    },
+    {
+      "check": "transactions.row_reconciliation",
+      "status": "PASS",
+      "detail": "clean_rows=4; source_control_total=4"
+    }
+  ]
+}

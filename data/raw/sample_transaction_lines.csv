@@ -1,0 +1,5 @@
+transaction_id,line_number,transaction_ts,store_id,sku_id,quantity,unit_price,discount_amount,currency,status
+t-001,1,2026-09-15T09:15:00+05:30,s001,sku-100,2,40.00,0.00,inr,COMPLETED
+t-001,2,2026-09-15T09:15:00+05:30,S001,SKU-200,1,120.00,10.00,INR,completed
+t-002,1,2026-09-15T12:30:00+05:30,S002,SKU-300,1,110.00,0.00,INR,COMPLETED
+t-002,2,2026-09-15T12:30:00+05:30,S002,SKU-400,2,75.00,5.00,INR,COMPLETED

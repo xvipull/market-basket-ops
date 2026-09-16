@@ -3,8 +3,12 @@ data/raw/*
 data/staging/*
 reports/*
 !data/raw/.gitkeep
+!data/raw/sample_*.csv
 !data/staging/.gitkeep
 !reports/.gitkeep
+!reports/data_quality_report.md
+!reports/data_quality_report.json
+data/*.db
 
 # Local / Python tooling
 .DS_Store

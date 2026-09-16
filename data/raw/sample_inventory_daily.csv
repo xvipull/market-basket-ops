@@ -1,0 +1,5 @@
+inventory_date,store_id,sku_id,on_hand_qty,in_stock_flag
+2026-09-15,S001,SKU-100,24,Y
+2026-09-15,S001,SKU-200,10,Y
+2026-09-15,S002,SKU-300,8,Y
+2026-09-15,S002,SKU-400,0,N

@@ -1,0 +1,6 @@
+-- Star-model reference. The executable SQLite DDL is maintained in src/pipeline.py.
+-- Fact grain:
+--   fact_transaction_line = one completed transaction line (transaction_id + line_number).
+--   fact_inventory_daily = one SKU, store, and calendar date snapshot.
+-- Dimensions retain immutable business keys (sku_id, store_id, promotion_id) and use
+-- integer surrogate keys in facts for stable joins and slowly changing extensions.
